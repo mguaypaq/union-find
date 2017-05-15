@@ -5,14 +5,14 @@ This repo contains:
 - a small test suite;
 - a garbage benchmark suite;
 - an implementation stub called `stub.py`; and
-- a few implemented solutions in the `solutions` branch.
+- a few implemented solutions in the `solutions` directory.
 
-If you don't want any spoilers for now, _don't look in the `solutions` branch_.
+If you don't want any spoilers for now, _don't look in the `solutions` directory_.
 Also, _don't look at [the Wikipedia page for this problem](https://en.wikipedia.org/wiki/Disjoint-set_data_structure)_.
 
 ## Problem statement
 
-Your program is given a description of a graph andsome connectivity queries about this graph on standard input, for example:
+Your program is given a description of a graph and some connectivity queries about this graph on standard input, for example:
 
 ```
 3
@@ -60,6 +60,12 @@ Once you have an implementation, you can test it by running the script:
 
 ```bash
 ./run_tests.sh ./stub.py
+```
+
+If you want to see how well my intended solution does, you can test it by running:
+
+```bash
+./run_tests.sh solutions/python3/smart_union_find.py
 ```
 
 This will run:
